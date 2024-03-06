@@ -1,8 +1,16 @@
 import React from "react";
+import useWindowSize from 'react-use/lib/useWindowSize'
+import Confetti from 'react-confetti'
 
 const App = () => {
+  const { width, height } = useWindowSize()
+
   return (
     <>
+      <Confetti
+      width={width}
+      height={height}
+    />
       <header className="bg-white relative top-0 text-white">
         <img src="group.jpg" className="w-full h-screen object-cover" alt="" />
         <nav className="flex justify-around items-center absolute top-0 w-full mx-auto">
