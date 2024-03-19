@@ -18,7 +18,7 @@ const App = () => {
             <img src="log.png" className="w-[120px]" alt="" />
           </div>
           <div>
-            <ul className="flex items-center gap-[4vw] font-bold">
+            <ul className="flex items-center gap-[4vw] font-bold text-md md:text-xl">
               <li>
                 <a className="hover:text-pink-500" href="">
                   HOME
