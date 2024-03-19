@@ -12,7 +12,7 @@ const App = () => {
       height={height}
     />
       <header className="bg-white relative top-0 text-white">
-        <img src="group.jpg" className="w-full h-screen object-cover" alt="" />
+        <img src="ring.jpg" className="w-full h-screen object-cover" alt="" />
         <nav className="flex justify-around items-center absolute top-0 w-full mx-auto">
           <div>
             <img src="log.png" className="w-[120px]" alt="" />
