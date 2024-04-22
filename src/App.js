@@ -44,7 +44,7 @@ const App = () => {
         </nav>{" "}
         <div className="absolute flex flex-col justify-center items-center inset-0">
           <p className="text-3xl md:text-5xl lg:text-7xl font-bold">
-            CYNTHIAN Hooks AYOMIBO
+            Cynthia Hooks Ayomibo
           </p>
           <p className="text-2xl">12-05-2024</p>
           <i className="text-2xl md:text-4xl">#CAaffairs</i>
